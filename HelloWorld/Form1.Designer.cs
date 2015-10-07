@@ -50,6 +50,7 @@
             this.btnHelloWorld.TabIndex = 1;
             this.btnHelloWorld.Text = "button1";
             this.btnHelloWorld.UseVisualStyleBackColor = true;
+            this.btnHelloWorld.Click += new System.EventHandler(this.btnHelloWorld_Click);
             // 
             // frmHelloWorld
             // 
